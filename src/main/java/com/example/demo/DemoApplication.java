@@ -20,6 +20,7 @@ public class DemoApplication {
             System.out.println("Hello centos"+i+"!");
             i++;
         }
+        System.out.println("--------------------------");
         return "Congratulation! You are success to deploy your project named demo.";
     }
 
