@@ -17,7 +17,10 @@ public class DemoApplication {
     public String hello() {
         int i = 1;
         while (i < 8) {
-            System.out.println("Hello centos"+i+"!");
+            if (i == 7) {
+                System.out.println("Hello centos" + i + "!!");
+            }
+            System.out.println("Hello centos" + i + "!");
             i++;
         }
         System.out.println("--------------------------");
