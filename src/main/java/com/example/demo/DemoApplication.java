@@ -14,8 +14,12 @@ public class DemoApplication {
     }
 
     @GetMapping("/hello")
-    public String hello(){
-        System.out.println("Hello centos7!");
+    public String hello() {
+        int i = 1;
+        while (i < 8) {
+            System.out.println("Hello centos"+i+"!");
+            i++;
+        }
         return "Congratulation! You are success to deploy your project named demo.";
     }
 
